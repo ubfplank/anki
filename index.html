@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto anki</title>
     <!-- Font Awesome Icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
 
     <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -32,9 +33,16 @@
                  </div>
             </div>
             <!-- Close Button-->
+             <i class ="fa-solid fa-xmark"></i>
         
     </div>
+    <label for="question">Question:</label>
+    <textarea class="input" id="question" placeholder ="Type the question here ..." rows="2"></textarea>
+    <label for="answer"> Answer:</label>
+   <textarea  class="input" id="answer" rows="4"  placeholder ="Type the question here ..."></textarea>
+   <button id="save-btn"> Save</button>
     <!--Script-->
+
     <script src="script.js">
     </script>
     
